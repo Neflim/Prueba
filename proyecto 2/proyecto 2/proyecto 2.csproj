@@ -52,8 +52,13 @@
     <Compile Include="..\..\Proyecto 2 V2\Proyecto 2 V2.Designer.cs">
       <DependentUpon>Proyecto 2 V2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelos\Academico\Docentes.cs" />
+    <Compile Include="Modelos\Estudiantes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorios\ConexionBD.cs" />
+    <Compile Include="Repositorios\EstudiantesRepo.cs" />
+    <Compile Include="Servicios\EstudiantesSevicio.cs" />
     <EmbeddedResource Include="..\..\Proyecto 2 V2\Proyecto 2 V2.resx">
       <DependentUpon>Proyecto 2 V2.cs</DependentUpon>
     </EmbeddedResource>
@@ -79,5 +84,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
