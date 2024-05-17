@@ -10,7 +10,7 @@ namespace proyecto_2.Repositorios
     public class ConexionBD
     {
         public SqlConnection conexion;
-        public string connectionString = "server=localhost; database=TestJosue; integrated security=true";
+        public string connectionString = "server=localhost; database=MiBaseDeDatos; integrated security=true";
 
         public ConexionBD()
         {
